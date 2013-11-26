@@ -13,10 +13,6 @@ body {
     border: 1px solid red !important;
 }
 
-section {
-    padding-top: 30px;
-}
-
 .page-header h1 > small > a {
     color: #999;
 }
@@ -86,6 +82,10 @@ section {
     line-height: 1;
 }
 
+.container {
+    width: 940px;
+}
+
 
 /* Not enough room on mobile for markup tab, js tab, and plunk btn.
   And no one cares about plunk button on a phone anyway */
@@ -93,6 +93,12 @@ section {
     #plunk-btn {
         display: none;
     }
+}
+
+.navbar-collapse {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-nav .dropdown .navbar-brand {
